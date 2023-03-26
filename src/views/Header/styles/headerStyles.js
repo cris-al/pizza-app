@@ -10,9 +10,23 @@ export const HeaderContainer = styled.header`
     background-color: ${Colors.backgroundHeader.darkGreen};
 `;
 
+export const Div = styled.section`
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+`;
+
 export const Title = styled.h1`
+    display: none;
     font-size: 1.1rem;
+    font-weight: bold;
     margin: 0;
+    @media (min-width: ${responsiveWidth.sm}) {
+        display: flex;
+    }
+    @media (min-width: ${responsiveWidth.lg}) {
+        font-size: 1.2rem;
+    }
 `;
 
 export const NavStyled = styled.nav`
@@ -25,7 +39,6 @@ export const NavStyled = styled.nav`
 
 export const LinkStyled = styled(NavLink)`
     text-decoration: none;
-    font-weight: bold;
     font-size: 1rem;
     color: ${Colors.word.lightGrey};
     border-radius: 2px;
@@ -33,6 +46,7 @@ export const LinkStyled = styled(NavLink)`
     padding: 0.4rem 0.8rem;
     &:hover {
         color: ${Colors.word.black};
+        background-color: ${Colors.hover.lightGreen};
     }
     &.active {
         border-bottom: 3px solid ${Colors.word.black};
@@ -52,7 +66,7 @@ export const Button = styled.button`
     border-radius: 5px;
     background: transparent;
     &:hover {
-        background-color: #2e7d32;
+        background-color: ${Colors.button.hover.lightGreen};
     }
     @media (min-width: ${responsiveWidth.sm}) {
         display: none;

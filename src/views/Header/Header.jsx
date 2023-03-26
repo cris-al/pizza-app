@@ -1,6 +1,6 @@
 import { navItems } from "utilities";
-import { HeaderContainer, LinkStyled, NavStyled, Title, Icon, Button
-} from "./styles/headerStyles";
+import { HeaderContainer, LinkStyled, NavStyled, Title, Icon, Button,
+ Div} from "./styles/headerStyles";
 import PizzaIcon from "assets/pizza-icon.svg";
 import MenuIcon from "assets/menu.svg";
 import { useHandlerHeader } from "./hook/useHandlerHeader";
@@ -10,8 +10,10 @@ export default function Header() {
     const { show, handleClick } = useHandlerHeader();
     return(
         <HeaderContainer>
-            <Icon src={PizzaIcon} alt="Icono de la marca"/>
-            {/* <Title>Pizza Party</Title> */}
+            <Div>
+                <Icon src={PizzaIcon} alt="Icono de la marca"/>
+                <Title>Pizza Party</Title>
+            </Div>
             <Button onClick={handleClick}>
                 <Icon src={MenuIcon} alt="Icono de menu"/>
             </Button>
