@@ -1,6 +1,6 @@
 import { navItems } from "utilities";
 import { HeaderContainer, LinkStyled, NavStyled, Title, Icon, Button,
- Div} from "./styles/headerStyles";
+ Div, Div1} from "./styles/headerStyles";
 import PizzaIcon from "assets/pizza-icon.svg";
 import MenuIcon from "assets/menu.svg";
 import { useHandlerHeader } from "./hook/useHandlerHeader";
@@ -9,7 +9,8 @@ import OffcanvasCustom from "./components/Offcanvas/OffcanvasCustom";
 export default function Header() {
     const { show, handleClick } = useHandlerHeader();
     return(
-        <HeaderContainer>
+        <Div1>
+                <HeaderContainer>
             <Div>
                 <Icon src={PizzaIcon} alt="Icono de la marca"/>
                 <Title>Pizza Party</Title>
@@ -25,5 +26,6 @@ export default function Header() {
                     </LinkStyled>) }
             </NavStyled>
         </HeaderContainer>
+            </Div1>
     );
 };

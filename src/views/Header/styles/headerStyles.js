@@ -2,12 +2,20 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Colors, responsiveWidth } from "theme";
 
+export const Div1 = styled.section`
+    display: flex;
+    justify-content: center;
+    background-color: ${Colors.background.darkGreen};
+    width: 100%;
+`;
+
 export const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    background-color: ${Colors.backgroundHeader.darkGreen};
+    width: 100%;
+    max-width: ${responsiveWidth.xxxl};
 `;
 
 export const Div = styled.section`
@@ -39,6 +47,7 @@ export const NavStyled = styled.nav`
 
 export const LinkStyled = styled(NavLink)`
     text-decoration: none;
+    font-family: 'Edu NSW ACT Foundation', cursive;
     font-size: 1rem;
     color: ${Colors.word.lightGrey};
     border-radius: 2px;
