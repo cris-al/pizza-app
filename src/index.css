@@ -1,5 +1,6 @@
 * {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  color: #bdbdbd;
 }
 
 body {
@@ -9,12 +10,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./assets/fondo-pizza.jpg");
+  background-image: url("./assets/fondomadera.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #151515;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

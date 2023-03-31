@@ -1,3 +1,6 @@
 export const publicRoutes = {
-    HOME: "/"
+    HOME: "/",
+    MENU: "/menu",
+    TESTIMONIALS: "/testimonials",
+    CONTACT: "/contact"
 };

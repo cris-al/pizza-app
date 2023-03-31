@@ -1,0 +1,31 @@
+.search {
+    width: 60%;
+    padding: 0.2rem 0.5rem 0.2rem 2rem;
+    outline: none;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background-color: #151515da;
+    border: 1px solid #bdbdbd;
+    box-shadow: 5px 5px 10px black;
+    background: #151515da url("../../../../../assets/search-icon-2.svg") no-repeat 8px center;
+}
+.search:hover {
+    cursor: pointer;
+    border: 1px solid #2e7d32;
+}
+@media (min-width: 576px) {
+    .search {
+        width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .search {
+        font-size: 1.1rem;
+        width: 300px;
+    }
+}
+@media (min-width: 1600px) {
+    .search {
+        font-size: 1.2rem;
+    }
+}

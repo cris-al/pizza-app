@@ -16,8 +16,8 @@ export const Main = styled.main`
 `;
 
 export const Container = styled.section`
-    background-color: ${Colors.background.transparentRed};
     padding: 1rem 0.5rem;
+    backdrop-filter: blur(5px);
     width: 100%;
     max-width: ${responsiveWidth.xxxl};
     box-shadow: 5px 5px 10px ${Colors.shadow.dark};

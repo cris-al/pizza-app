@@ -5,8 +5,9 @@ import { Colors, responsiveWidth } from "theme";
 export const Div1 = styled.section`
     display: flex;
     justify-content: center;
-    background-color: ${Colors.background.darkGreen};
+    background-color: ${Colors.background.black};
     width: 100%;
+    box-shadow: 0 0 15px ${Colors.shadow.dark};
 `;
 
 export const HeaderContainer = styled.header`
@@ -54,12 +55,11 @@ export const LinkStyled = styled(NavLink)`
     border-bottom: 3px solid none;
     padding: 0.4rem 0.8rem;
     &:hover {
-        color: ${Colors.word.black};
-        background-color: ${Colors.hover.lightGreen};
+        color: ${Colors.word.lightGrey};
+        background-color: ${Colors.hover.black};
     }
     &.active {
-        border-bottom: 3px solid ${Colors.word.black};
-        color: ${Colors.word.black};
+        border-bottom: 3px solid ${Colors.word.lightGrey};
     }
 `;
 
@@ -73,7 +73,7 @@ export const Icon = styled.img`
 export const Button = styled.button`
     border: none;
     border-radius: 5px;
-    background: transparent;
+    background: ${Colors.button.background.darkGreen};
     &:hover {
         background-color: ${Colors.button.hover.lightGreen};
     }

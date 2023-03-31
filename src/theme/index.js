@@ -1,17 +1,23 @@
 export const Colors = {
     background: {
         darkGreen: "#1b5e20",
+        black: "#151515",
         red: "#d50000",
         transparentRed: "#d50000c7",
         transparentGreen: "#1b5e1fd6",
-        transparentBlue: "#0d48a1d4"
+        transparentBlue: "#0d48a1d4",
+        transparentBlack: "#151515da"
     },
     hover: {
-        lightGreen: "#2e7d32"
+        lightGreen: "#2e7d32",
+        black: "#212121"
     },
     word: {
+        white: "#eeeeee",
         lightGrey: "#bdbdbd",
-        black: "#212121"
+        black: "black",
+        red: "#d50000",
+        darkGreen: "#1b5e20"
     },
     shadow: {
         black: "#212121",
