@@ -1,6 +1,6 @@
 export const publicRoutes = {
     HOME: "/",
     MENU: "/menu",
-    TESTIMONIALS: "/testimonials",
+    REVIEWS: "/reviews",
     CONTACT: "/contact"
 };

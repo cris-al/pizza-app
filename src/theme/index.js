@@ -21,7 +21,7 @@ export const Colors = {
     },
     shadow: {
         black: "#212121",
-        lightGreen: "#bdbdbd",
+        lightGrey: "#bdbdbd",
         dark: "black"
     },
     button: {
