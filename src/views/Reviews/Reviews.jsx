@@ -1,6 +1,7 @@
 import { Main, CommentContainer } from "./styles/reviewsStyles";
 import Comment from "./components/Comment/Comment";
 import Rating from "./components/Rating/Rating";
+import AddComment from "./components/AddComment/AddComment";
 
 export default function Reviews() {
     return(
@@ -8,6 +9,7 @@ export default function Reviews() {
             <h1>Reseñas</h1>
             <Rating />
             <CommentContainer>
+                <AddComment />
                 <Comment qualification={4}/>
                 <Comment qualification={1}/>
                 <Comment qualification={2}/>
