@@ -48,7 +48,6 @@ export const NavStyled = styled.nav`
 
 export const LinkStyled = styled(NavLink)`
     text-decoration: none;
-    font-family: 'Edu NSW ACT Foundation', cursive;
     font-size: 1rem;
     color: ${Colors.word.lightGrey};
     border-radius: 2px;
@@ -59,7 +58,8 @@ export const LinkStyled = styled(NavLink)`
         background-color: ${Colors.hover.black};
     }
     &.active {
-        border-bottom: 3px solid ${Colors.word.lightGrey};
+        color: ${Colors.word.lightGrey};
+        border-bottom: 3px solid ${Colors.background.darkGreen};
     }
 `;
 

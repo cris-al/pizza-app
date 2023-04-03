@@ -1,7 +1,15 @@
+import { Main, Container, Title } from "./styles/contactStyles";
+import Formulary from "./components/Form/Formulary";
+import Data from "./components/Data/Data";
+
 export default function Contact() {
     return(
-        <main>
-            <h1>Contacto</h1>
-        </main>
+        <Main>
+            <Data />
+            <Container>
+                <Title>Formulario de contacto</Title>
+                <Formulary />
+            </Container>
+        </Main>
     );
 };
