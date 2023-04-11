@@ -1,6 +1,6 @@
 import Pizza from "assets/pizza-icon.svg";
-import { Container, Image, TextContainer, Title, Paragraph
-} from "views/Home/styles/homeStyles";
+import { Container, Image, TextContainer, Title, Paragraph,
+Button } from "views/Home/styles/homeStyles";
 
 export default function FirstContainer() {
     return(
@@ -16,6 +16,7 @@ export default function FirstContainer() {
                     Estamos seguros de que te encantará cada bocado que pruebes.<br />
                     ¡Gracias por visitarnos!
                 </Paragraph>
+                <Button>¡Quiero hacer mi pedido!</Button>
             </TextContainer>
         </Container>
     );

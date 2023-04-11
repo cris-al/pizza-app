@@ -25,14 +25,14 @@ export default function Comment({ qualification }) {
                 </Container2>
             </Container1>
             <Paragraph showText={showText} onClick={() => setShowText(!showText)}>
-                hola estae asad jaslodi ajowkdalsih doawhdo askdjidwasd ajowkdalsih
-                sdawodalsjdlka wda slda wldjlaskjoiwaj lkasjd ooaiwuda sdajldkwjaoisdafn
-                sdawodalsjdlka wda slda wldjlaskjoiwaj lkasjd ooaiwuda sdajldkwjaoisdafn
-                sdawodalsjdlka wda slda wldjlaskjoiwaj lkasjd ooaiwuda sdajldkwjaoisdafn
-                sdawodalsjdlka wda slda wldjlaskjoiwaj lkasjd ooaiwuda sdajldkwjaoisdafn
-                sdawodalsjdlka wda slda wldjlaskjoiwaj lkasjd ooaiwuda sdajldkwjaoisdafn
-                sdawodalsjdlka wda slda wldjlaskjoiwaj lkasjd ooaiwuda sdajldkwjaoisdafn
-                sdawodalsjdlka wda slda wldjlaskjoiwaj lkasjd ooaiwuda sdajldkwjaoisdafn
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam unde perferendis, quos fuga, 
+                voluptatibus dolor, velit doloremque modi suscipit vero accusamus. Sint corrupti quibusdam vero modi eius, 
+                aperiam, quam iusto consequuntur repudiandae saepe error in quae? 
+                Error quia amet impedit similique explicabo nemo sint voluptates minima accusantium totam officia rerum velit, 
+                saepe officiis ipsa repudiandae culpa veritatis? Et aperiam ex deserunt sint odit molestias voluptates id, 
+                quam tempore architecto est. Obcaecati quibusdam explicabo consequatur inventore placeat? 
+                Hic, rerum exercitationem dolor aliquid maxime sunt in maiores doloremque laboriosam nemo recusandae, 
+                distinctio deserunt nesciunt incidunt quaerat unde tempora eveniet. Voluptatem, aspernatur eum.
             </Paragraph>
         </MainContainer>
     );

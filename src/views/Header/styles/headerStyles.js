@@ -6,6 +6,7 @@ export const Div1 = styled.section`
     display: flex;
     justify-content: center;
     background-color: ${Colors.background.black};
+    pisition: fixed;
     width: 100%;
     box-shadow: 0 0 15px ${Colors.shadow.dark};
 `;

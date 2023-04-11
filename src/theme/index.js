@@ -27,11 +27,15 @@ export const Colors = {
     button: {
         background: {
             darkGreen: "#1b5e20",
-            red: "#d50000"
+            green: "#1b5e20",
+            red: "#d50000",
+            blue: "#0d47a1"
         },
         hover: {
             lightGreen: "#2e7d32",
-            red: "#b71c1c"
+            green: "#2e7d32",
+            red: "#d42424",
+            blue: "#1565c0"
         }
     }
 };

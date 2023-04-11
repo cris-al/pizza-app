@@ -153,3 +153,54 @@ export const Image = styled.img`
         height: 450px;
     }
 `;
+
+export const ButtonContainer = styled.section`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    gap: 0.5rem;
+    @media (min-width: ${responsiveWidth.xs}) {
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    @media (min-width: ${responsiveWidth.sm}) {
+        padding: 1.5rem;
+    }
+    @media (min-width: ${responsiveWidth.md}) {
+        margin: 0 2rem;
+        background-color: ${Colors.background.transparentBlack};
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px ${Colors.shadow.dark};
+        width: 90%;
+    }
+    @media (min-width: ${responsiveWidth.lg}) {
+        padding: 2.5rem;
+        gap: 2rem;
+    }
+    @media (min-width: ${responsiveWidth.xl}) {
+        padding: 3rem;
+        gap: 3rem;
+    }
+`;
+
+export const Button = styled.button`
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    background-color: ${({bg}) => bg ? Colors.button.background[bg]
+                                     : Colors.button.background.red};
+    box-shadow: 5px 5px 10px ${Colors.shadow.dark};
+    @media (min-width: ${responsiveWidth.md}) {
+        width: 220px;
+    }
+    @media (min-width: ${responsiveWidth.xl}) {
+        font-size: 1.1rem;
+    }
+    &:hover {
+        background-color: ${({bg}) => bg ? Colors.button.hover[bg]
+                                     : Colors.button.hover.red};
+    }
+`;

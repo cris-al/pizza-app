@@ -13,7 +13,7 @@ export default function SecondContainer() {
             <Container bgCol="blue">
                 <Paragraph>
                     Contamos con un sistema de puntos que pueden traerte muchos beneficios.<br/>
-                    ¡Solo debes registrate y cada vez que vengas a nuestro local inicias sesión, pides tu comida, pagas y suma puntos!
+                    ¡Solo debes registrarte y cada vez que vengas a nuestro local inicias sesión, pides tu comida, pagas y suma puntos!
                 </Paragraph>
             </Container>
         </MainContainer>
